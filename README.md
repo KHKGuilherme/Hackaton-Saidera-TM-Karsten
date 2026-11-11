@@ -182,7 +182,7 @@ uma futura API.
 ## Publicação (Streamlit Community Cloud)
 
 1. Suba o repositório no GitHub (público).
-2. Em [share.streamlit.io](https://share.streamlit.io), crie um app com *Main file* `app.py`.
+2. Em [share.streamlit.io](https://share.streamlit.io), crie um app com *Main file* `app.py`. [https://hackaton-saidera-tm-karsten.streamlit.app/]
    Em *Advanced settings*, escolha Python 3.12.
 3. O `requirements.txt` já está pronto. O link gerado pode ser usado pela banca.
 

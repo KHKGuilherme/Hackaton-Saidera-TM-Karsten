@@ -1,0 +1,10 @@
+Título: PO-SL-001
+REV: 00
+Operação: "Bainhar no corpo do SL - 1 lado"
+Agrupamento família: Sobre-lençol
+Tamanho: Solteiro
+Medidas da peça (em m): 1,80 x 2,50
+Pontos/cm: 2,50
+Perímetro costura (em m): 6,96
+Cód. Eqp: 1
+Elementos: 2.1, 1.1, 3.1

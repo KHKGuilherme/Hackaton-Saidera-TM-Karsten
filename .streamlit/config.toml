@@ -1,0 +1,61 @@
+# Aparência do Streamlit. [theme] tem o que vale para os dois temas; [theme.light] e [theme.dark] têm as cores.
+# O usuário troca o tema no menu ⋮; a escolha fica salva no navegador.
+[theme]
+showWidgetBorder = true
+baseRadius = "0.5rem"
+buttonRadius = "full"
+baseFontSize = 16
+# Fontes carregadas do Google Fonts: Instrument Sans (texto), Fraunces (títulos) e IBM Plex Mono (código).
+font = "Instrument Sans:https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+headingFont = "Fraunces:https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&display=swap"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+
+# Tema claro: cores da identidade Karsten (branco, azul #005A7A, amarelo #F2B705).
+[theme.light]
+primaryColor = "#005A7A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F7F9"
+textColor = "#0B2236"
+linkColor = "#005A7A"
+borderColor = "#6F8694"
+dataframeBorderColor = "#D6E0E6"
+dataframeHeaderBackgroundColor = "#F4F7F9"
+codeTextColor = "#005A7A"
+codeBackgroundColor = "#E8EFF3"
+# Cores dos gráficos: a 1ª pinta a máquina selecionada e a 2ª as alternativas (ver grafico_maquinas no app.py).
+chartCategoricalColors = ["#005A7A", "#5E7A8A", "#F2B705", "#1B6E3E"]
+
+[theme.light.sidebar]
+backgroundColor = "#F4F7F9"
+secondaryBackgroundColor = "#FFFFFF"
+
+# Tema escuro: marinho Karsten com verde-água.
+[theme.dark]
+primaryColor = "#92CFCA"
+backgroundColor = "#001521"
+secondaryBackgroundColor = "#04212F"
+textColor = "#F8F1E9"
+linkColor = "#92CFCA"
+borderColor = "#4F7385"
+dataframeBorderColor = "#133A4E"
+dataframeHeaderBackgroundColor = "#04212F"
+codeTextColor = "#92CFCA"
+codeBackgroundColor = "#0A2D3E"
+# Mesma ordem do tema claro: selecionada, alternativa.
+chartCategoricalColors = ["#92CFCA", "#5FA3BF", "#6FD8A6", "#A7BEC8"]
+
+[theme.dark.sidebar]
+backgroundColor = "#001A28"
+secondaryBackgroundColor = "#04212F"
+
+# "viewer" mantém o menu ⋮ com a troca de tema; "minimal" esconderia o menu inteiro.
+[client]
+toolbarMode = "viewer"
+
+# Tamanho máximo de upload, em MB.
+[server]
+maxUploadSize = 20
+
+# Não envia estatísticas de uso para o Streamlit.
+[browser]
+gatherUsageStats = false

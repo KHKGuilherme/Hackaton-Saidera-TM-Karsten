@@ -1,0 +1,12 @@
+{
+  "titulo": "PO-FR-010",
+  "revisao": "00",
+  "operacao": "Fechar laterais da fronha",
+  "familia": "Fronha",
+  "tamanho": "Padrão",
+  "medidas": "0,50 x 0,70",
+  "pontos_cm": 3.0,
+  "perimetro_m": 1.9,
+  "cod_maquina": "2",
+  "roteiro": ["2.1", {"codigo": "4.1", "frequencia": 2}, "3.1", "6.1"]
+}
